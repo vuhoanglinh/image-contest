@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /imgtest/index.php/$1 [L]
+
+ErrorDocument 401 /imgtest/error.php
+ErrorDocument 402 /imgtest/error.php
+ErrorDocument 403 /imgtest/error.php
+ErrorDocument 405 /imgtest/error.php
+ErrorDocument 406 /imgtest/error.php
+ErrorDocument 407 /imgtest/error.php
+ErrorDocument 408 /imgtest/error.php
+ErrorDocument 409 /imgtest/error.php
+ErrorDocument 410 /imgtest/error.php
+ErrorDocument 411 /imgtest/error.php
+ErrorDocument 412 /imgtest/error.php
+ErrorDocument 413 /imgtest/error.php
+ErrorDocument 414 /imgtest/error.php
+ErrorDocument 415 /imgtest/error.php
+ErrorDocument 416 /imgtest/error.php
+ErrorDocument 417 /imgtest/error.php
+
+ErrorDocument 500 /imgtest/error.php
+ErrorDocument 501 /imgtest/error.php
+ErrorDocument 502 /imgtest/error.php
+ErrorDocument 503 /imgtest/error.php
+ErrorDocument 504 /imgtest/error.php
+ErrorDocument 505 /imgtest/error.php
